@@ -1825,3 +1825,12 @@ textarea.w-select {
   top: 0;
   left: 0;
 }
+
+/* Ensure active nav link is visible on mobile menu */
+@media (max-width: 767px) {
+  .w-nav-link.w--current {
+    color: #000 !important; /* black text */
+  }
+}
+
+
